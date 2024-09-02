@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1307,12 +1302,10 @@ input, select, textarea {
 .thumbnail {
 	display: flex;
 	align-items: flex-start;
-
 	padding: 10px;
 	width: 100%;
 	max-width: 600px;
 	margin: 20px auto;
-
 	transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   
@@ -1332,23 +1325,31 @@ input, select, textarea {
 	margin-left: 15px;
 	display: flex;
 	flex-direction: column;
+	justify-content: right;
   }
   
   .article-name {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 5px;
-
   }
   
   .author-date {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	font-size: 14px;
 	color: #e1e1e1;
-	display: flexbox 10,flex,flex;
 	margin-bottom: 10px;
   }
-  .author-name{
-	padding-right: 70px;
+  
+  .author-name {
+	flex: 1;
+  }
+  
+  .read-time {
+	flex: 1;
+	text-align: right;
   }
   
   .short-description {
@@ -1366,6 +1367,10 @@ input, select, textarea {
 	transform: scale(1.05);
   }
   
+  .read {
+	font-size: smaller;
+  }
+  
   /* Responsive Styles */
   @media (max-width: 768px) {
 	.thumbnail {
@@ -1376,18 +1381,16 @@ input, select, textarea {
 	.thumbnail-right {
 	  margin-left: 0;
 	  margin-top: 10px;
-	  text-align: left;
-	}
-	.publish-date{
-		justify-content: right;
 	}
   
 	.author-date {
-		justify-content: center;
-		
-		
+	  flex-direction: column;
+	  align-items: flex-start;
 	}
-
-
+  
+	.read-time {
+	  text-align: left;
+	  margin-top: 5px;
+	}
   }
   
