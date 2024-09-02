@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1384,13 +1385,32 @@ input, select, textarea {
 	}
   
 	.author-date {
-	  flex-direction: column;
 	  align-items: flex-start;
 	}
   
-	.read-time {
-	  text-align: left;
-	  margin-top: 5px;
+
+	  /* Responsive Styles */
+	  @media (max-width: 430px) {
+		.thumbnail {
+		  flex-direction: column;
+		  align-items: left;
+		}
+	  
+		.thumbnail-right {
+		  margin-left: 0;
+		  margin-top: 10px;
+		}
+	  
+		.author-date {
+		  flex-direction: column;
+		  align-items: flex-start;
+		}
+	  
+		.read-time {
+		  text-align: left;
+		  margin-top: 5px;
+		}
+
 	}
   }
   
