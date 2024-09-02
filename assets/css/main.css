@@ -1338,14 +1338,17 @@ input, select, textarea {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 5px;
+
   }
   
   .author-date {
 	font-size: 14px;
 	color: #e1e1e1;
-	display: flex;
-	justify-content: space-between;
+	display: flexbox 10,flex,flex;
 	margin-bottom: 10px;
+  }
+  .author-name{
+	padding-right: 70px;
   }
   
   .short-description {
@@ -1380,10 +1383,10 @@ input, select, textarea {
 	}
   
 	.author-date {
-		justify-content: space-between;
+		justify-content: center;
+		
 		
 	}
-
 
 
   }
