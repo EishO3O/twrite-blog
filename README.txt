@@ -1,67 +1,47 @@
-🌸 Angelites — A Platform for Positivity and Connection
+# 🌸 Angelites — A Platform for Positivity and Connection
 
-Angelites is a web-based platform built to spread positivity, unity, and compassion through personal stories and creative expressions.
-It serves as a safe and inspiring space where users can share experiences, discover uplifting content, and connect through kindness. 💫
+**Angelites** is a web-based platform designed to spread positivity, unity, and compassion through personal stories and creative expressions.  
+It aims to create a **safe, inspiring space** where users can share experiences and engage with uplifting content. 💫  
 
-🌐 Live Demo
+---
 
-👉 Visit Angelites
+## 🌍 Live Website
+🔗 **Visit here:** [https://d3df048b.twrite-blog-3dcma.pages.dev/](https://d3df048b.twrite-blog-3dcma.pages.dev/)
 
-✨ Features
+---
 
-📰 Modern Blog Interface — Beautifully designed layout for smooth reading and posting.
+## ✨ Overview
 
-💬 Share & Explore Stories — Users can post their own reflections or browse others’ inspiring entries.
+Angelites focuses on community-driven positivity.  
+It’s more than just a blogging site — it’s a place where people can **connect, heal, and inspire** through meaningful words and experiences.  
+Built with simplicity and warmth in mind, every detail encourages **authenticity, empathy, and creativity**.
 
-🌙 Light / Dark Mode — Seamless theme toggle for personalized comfort.
+---
 
-📱 Fully Responsive Design — Optimized for mobile, tablet, and desktop.
+## 🚀 Features
 
-🔍 Tag-Based Filtering — Find stories by mood, theme, or topic.
+- 📰 **Modern Blog-Style Interface** — clean, elegant, and intuitive.  
+- 💬 **Share and Read Inspiring Stories** — express your thoughts freely.  
+- 🌙 **Light/Dark Mode Toggle** — for a soothing, customizable experience.  
+- 📱 **Responsive Layout** — fully optimized for mobile and desktop.  
+- 🔍 **Tag Filtering System** — explore stories by interest or topic.  
+- 💖 **Interactive Reactions** — engage with posts through likes and hearts.  
+- 📤 **Clipboard Sharing Prompt** — copy and share article links effortlessly.  
 
-💖 Interactive Reactions — Express appreciation through likes and hearts.
+---
 
-🛠️ Tech Stack
-Technology	Purpose
-React.js	Frontend framework for dynamic UI rendering
-Tailwind CSS	Utility-first styling for fast and responsive design
-Firebase	Authentication and Firestore database for user and post data
-React Router DOM	Smooth navigation and page routing
-🧩 Project Structure
-Angelites/
-├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Core views (Home, Blog, Detail, etc.)
-│   ├── controllers/     # Handles data and logic (MVC pattern)
-│   ├── models/          # NewsModel and related structures
-│   ├── assets/          # Images, icons, and other media
-│   ├── App.js           # Main application component
-│   └── index.js         # Entry point
-├── public/
-├── package.json
-└── README.md
+## 🛠️ Tech Stack
 
-🚧 Development Setup
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | React.js |
+| **Styling** | Tailwind CSS |
+| **Routing** | React Router DOM |
+| **Backend / Database** | Firebase Firestore |
+| **Authentication** | Firebase Auth |
+| **Hosting** | Cloudflare Pages |
 
-To run Angelites locally:
+---
 
-# 1. Clone the repository
-git clone https://github.com/your-username/angelites.git
+## 🧩 Folder Structure
 
-# 2. Navigate to the project directory
-cd angelites
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm start
-
-
-The app will be available at http://localhost:3000
- 🌼
-
-💭 Vision
-
-“Even small stories can make big changes.”
-Angelites is built around that belief — a gentle reminder that positivity, empathy, and creativity can bring people together in meaningful ways.
